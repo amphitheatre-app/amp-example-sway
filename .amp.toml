@@ -1,0 +1,21 @@
+name = "amp-example-sway"
+version = "0.1.0"
+edition = "v1"
+description = "A simple Sway example app"
+readme = "README.md"
+homepage = "https://github.com/amphitheatre-app/amp-example-sway"
+repository = "https://github.com/amphitheatre-app/amp-example-sway"
+license = "Apache-2.0"
+license-file = "LICENSE"
+keywords = ["example", "sway", "getting-started"]
+categories = ["example"]
+
+[build]
+builder = "ghcr.io/amp-buildpacks/sway-builder"
+
+[partners]
+sway = { version = "stable", registry = "catalog" }
+
+[build.env]
+BP_ENABLE_FORC_DEPLOY = "true"
+BP_HOME = "/layers/amp-buildpacks_sway/forc-amd64/fuel"
