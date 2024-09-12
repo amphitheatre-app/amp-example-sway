@@ -11,7 +11,7 @@ This is an example of using Sway with AMP.
 ```toml
 [build.env]
 BP_ENABLE_FORC_DEPLOY = "true"
-BP_HOME = "/layers/amp-buildpacks_sway/forc-amd64/fuel"
+BP_HOME = "/layers/amp-buildpacks_forc/forc-amd64/fuel"
 ```
 
 ## Running
