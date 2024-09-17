@@ -6,7 +6,7 @@ This is an example of using Sway with AMP.
 
 * Install AMP client: https://docs.amphitheatre.app/installation/cli/
 
-* Update private key in `.amp.toml`
+* Update configuration in `.amp.toml`
 
 ```toml
 [build.env]
